@@ -1,0 +1,96 @@
+/* Foundation only. Page layouts live in editorial.css; audio controls in pages.css. */
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+body {
+  margin: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+button,
+summary {
+  cursor: pointer;
+}
+img,
+svg {
+  max-width: 100%;
+}
+button,
+a,
+input,
+summary {
+  -webkit-tap-highlight-color: transparent;
+}
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+summary:focus-visible {
+  outline: 3px solid #a34230;
+  outline-offset: 4px;
+}
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 16px 22px;
+  border: 0;
+  cursor: pointer;
+  font-size: 14px;
+}
+.light {
+  background: #d6e5cf;
+  color: #172630;
+}
+.eyebrow {
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: #afc5bc;
+}
+.tag {
+  font-size: 12px;
+  letter-spacing: 0.03em;
+}
+.skip-link {
+  position: fixed;
+  top: -100px;
+  left: 16px;
+  z-index: 100;
+  background: #fff;
+  padding: 14px;
+}
+.skip-link:focus {
+  top: 12px;
+}
+[hidden] {
+  display: none !important;
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

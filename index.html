@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>音の中に、入ってみる。 | ACOUSMONIUM</title>
+    <meta
+      name="description"
+      content="アクースモニウムの仕組み、朗読体験、演奏者の活動、演奏を始めるためのガイド。音と空間の文化を、もっと身近に。"
+    />
+    <meta name="theme-color" content="#102c32" />
+    <meta property="og:title" content="音の中に、入ってみる。 | ACOUSMONIUM" />
+    <meta
+      property="og:description"
+      content="アクースモニウムの仕組み、朗読体験、演奏者の活動、演奏を始めるためのガイド。音と空間の文化を、もっと身近に。"
+    />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="pages.css" />
+    <link rel="stylesheet" href="editorial.css" />
+  </head>
+  <body id="top" class="home-page">
+    <a class="skip-link" href="#main-content">本文へ移動</a>
+    <div class="reading-progress" aria-hidden="true">
+      <span id="reading-progress"></span>
+    </div>
+
+    <header class="masthead">
+      <a class="brand" href="index.html"
+        ><span class="brand-mark" aria-hidden="true"
+          ><i></i><i></i><i></i><i></i><i></i></span
+        ><span>ACOUSMONIUM<small>音と、空間と、物語。</small></span></a
+      >
+      <nav class="desktop-nav" aria-label="メインナビゲーション">
+        <a href="about.html">知る</a><a href="lab.html">聴いて試す</a
+        ><a href="artists.html">人を知る</a><a href="start.html">演奏する</a
+        ><a href="organize.html">文化を育てる</a>
+      </nav>
+      <button class="search-trigger" type="button" aria-label="サイト内を検索">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="10" cy="10" r="6"></circle>
+          <path d="m15 15 5 5"></path></svg
+        ><span>検索</span>
+      </button>
+      <button
+        class="motion-toggle"
+        type="button"
+        aria-label="装飾の動きを止める"
+        aria-pressed="false"
+        title="装飾の動きを止める"
+        hidden
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M3 12h3m3-5v10m3-14v18m3-14v10m3-5h3" />
+          <path class="motion-off-line" d="M3 3l18 18" />
+        </svg>
+      </button>
+      <details class="mobile-menu">
+        <summary>メニュー</summary>
+        <nav aria-label="モバイルナビゲーション">
+          <a href="about.html">知る</a><a href="lab.html">聴いて試す</a
+          ><a href="artists.html">人を知る</a><a href="start.html">演奏する</a
+          ><a href="organize.html">文化を育てる</a
+          ><a href="visit.html">公演を探す</a
+          ><a href="glossary.html">音のことば</a>
+        </nav>
+      </details>
+    </header>
+    <main id="main-content">
+      <section class="cover">
+        <div class="cover-copy">
+          <p class="category-label">アクースモニウムを知る・聴く・奏でる</p>
+          <h1>音を、<br />空間で聴く。</h1>
+          <p>
+            スピーカーの数だけ、音の居場所がある。<br />聴き手を包む音楽、アクースモニウム。<br />その仕組みと、演奏する人たちを紹介します。
+          </p>
+          <div class="cover-actions">
+            <a class="solid-button" href="lab.html"
+              >朗読で体験する <span>→</span></a
+            ><a href="about.html">仕組みを知る →</a>
+          </div>
+        </div>
+        <figure class="sound-plate">
+          <svg
+            viewBox="0 0 560 440"
+            role="img"
+            aria-labelledby="plate-title plate-desc"
+          >
+            <title id="plate-title">聴き手を囲むスピーカー</title>
+            <desc id="plate-desc">
+              異なる場所のスピーカーへ音を配り、空間全体で演奏する考え方を表した模式図です。
+            </desc>
+            <defs>
+              <marker
+                id="arrow"
+                viewBox="0 0 10 10"
+                refX="8"
+                refY="5"
+                markerWidth="5"
+                markerHeight="5"
+                orient="auto-start-reverse"
+              >
+                <path d="M0 0L10 5L0 10Z" fill="#a34230"></path>
+              </marker>
+            </defs>
+            <g fill="none" stroke="#d0ccc3">
+              <ellipse cx="280" cy="214" rx="202" ry="156"></ellipse>
+              <ellipse cx="280" cy="214" rx="144" ry="108"></ellipse>
+              <path d="M58 214H502M280 38V386" stroke-dasharray="3 6"></path>
+            </g>
+            <g fill="#242725">
+              <rect x="264" y="48" width="32" height="48"></rect>
+              <rect
+                x="104"
+                y="99"
+                width="27"
+                height="39"
+                transform="rotate(-40 118 119)"
+              ></rect>
+              <rect
+                x="429"
+                y="99"
+                width="27"
+                height="39"
+                transform="rotate(40 443 119)"
+              ></rect>
+              <rect x="60" y="197" width="29" height="44"></rect>
+              <rect x="471" y="197" width="29" height="44"></rect>
+              <rect
+                x="112"
+                y="303"
+                width="30"
+                height="43"
+                transform="rotate(40 127 325)"
+              ></rect>
+              <rect
+                x="418"
+                y="303"
+                width="30"
+                height="43"
+                transform="rotate(-40 433 325)"
+              ></rect>
+              <rect x="264" y="347" width="32" height="40"></rect>
+            </g>
+            <g fill="#f6f4ee">
+              <circle cx="280" cy="72" r="8"></circle>
+              <circle cx="75" cy="219" r="7"></circle>
+              <circle cx="485" cy="219" r="7"></circle>
+            </g>
+            <path
+              d="M119 151C180 107 354 115 414 164"
+              stroke="#a34230"
+              stroke-width="2"
+              fill="none"
+              marker-end="url(#arrow)"
+            ></path>
+            <path
+              d="M413 173C380 207 343 221 306 218"
+              stroke="#a34230"
+              stroke-width="1.5"
+              stroke-dasharray="4 5"
+              fill="none"
+              marker-end="url(#arrow)"
+            ></path>
+            <circle cx="280" cy="214" r="22" fill="#a34230"></circle>
+            <circle cx="280" cy="208" r="5" fill="#fff"></circle>
+            <path
+              d="M270 224Q280 213 290 224"
+              stroke="#fff"
+              stroke-width="2"
+              fill="none"
+            ></path>
+            <g font-family="sans-serif" font-size="12" fill="#62645e">
+              <text x="280" y="258" text-anchor="middle">聴き手</text>
+              <text x="332" y="60">スピーカー</text>
+              <text x="337" y="121" fill="#a34230">音の移動</text>
+              <text x="280" y="419" text-anchor="middle" letter-spacing="2">
+                SPACE AS AN INSTRUMENT
+              </text>
+            </g>
+          </svg>
+          <figcaption>
+            <span>図 01 — 空間全体を、ひとつの楽器に。</span
+            ><span>配置の模式図</span>
+          </figcaption>
+        </figure>
+      </section>
+      <nav class="entry-routes" aria-label="目的から選ぶ">
+        <a href="about.html"
+          ><span>01 / DISCOVER</span><b>はじめて知る</b
+          ><small>仕組みと楽しみ方から ↗</small></a
+        ><a href="lab.html"
+          ><span>02 / EXPERIENCE</span><b>音で体験する</b
+          ><small>物語の声を動かしてみる ↗</small></a
+        ><a href="start.html"
+          ><span>03 / PLAY</span><b>演奏を始める</b
+          ><small>最初の練習と学び方へ ↗</small></a
+        >
+      </nav>
+      <div class="home-layout">
+        <div class="home-main">
+          <section class="editorial-section">
+            <div class="section-top">
+              <div>
+                <span class="category-label">特集｜朗読と空間</span>
+                <h2>声からひらく、音の世界。</h2>
+              </div>
+              <span class="section-number">01</span>
+            </div>
+            <a class="feature-banner" href="story.html"
+              ><div>
+                <span>朗読 × アクースモニウム</span>
+                <h3>「おかえり」は、<br />どこから聞こえましたか。</h3>
+                <p>
+                  同じ言葉でも、届く場所が変わると物語が変わる。<br />言葉と空間の接点を、短編小説から探ります。
+                </p>
+                <b>特集を読む ↗</b>
+              </div>
+              <div class="book-art" aria-hidden="true">
+                <span>短編小説</span><strong>雨の向こうの駅</strong
+                ><small>朗読と空間表現</small>
+              </div></a
+            >
+            <div class="lab-ribbon">
+              <span class="live-dot" aria-hidden="true"></span>
+              <div>
+                <b>読むだけで終わらない、朗読サウンドラボ。</b>
+                <p>
+                  残響・距離・音色を変える。原音と比べる。自分の声でも試せます。
+                </p>
+              </div>
+              <a href="lab.html" aria-label="朗読サウンドラボへ">体験する ↗</a>
+            </div>
+          </section>
+          <section class="editorial-section">
+            <div class="section-top">
+              <div>
+                <span class="category-label">知る・聴く・演奏する</span>
+                <h2>好奇心を、もう一歩先へ。</h2>
+              </div>
+              <span class="section-number">02</span>
+            </div>
+            <div class="reading-rows">
+              <a href="about.html"
+                ><div class="thumb speaker-thumb" aria-hidden="true">
+                  <i></i><i></i><i></i>
+                </div>
+                <div>
+                  <span>GUIDE / はじめての方へ</span>
+                  <h3>スピーカーが、楽器になる。</h3>
+                  <p>
+                    作品・演奏者・会場の関係を、模式図とともに読み解きます。
+                  </p>
+                </div>
+                <b>↗</b></a
+              ><a href="start.html"
+                ><div class="thumb fader-thumb" aria-hidden="true">
+                  <i></i><i></i><i></i><i></i>
+                </div>
+                <div>
+                  <span>PRACTICE / 奏でてみたい方へ</span>
+                  <h3>演奏の最初の5分。</h3>
+                  <p>
+                    原音を聴く、一つ変える、意図を決める。具体的な練習の入口。
+                  </p>
+                </div>
+                <b>↗</b></a
+              ><a href="visit.html"
+                ><div class="thumb seat-thumb" aria-hidden="true">
+                  LIVE<br /><span>LISTENING</span>
+                </div>
+                <div>
+                  <span>LIVE / 会場で聴きたい方へ</span>
+                  <h3>次は、本物の音の空間へ。</h3>
+                  <p>
+                    公演を探す場所と、会場で耳を向けたいポイントをまとめました。
+                  </p>
+                </div>
+                <b>↗</b></a
+              >
+            </div>
+          </section>
+          <section class="editorial-section">
+            <div class="section-top">
+              <div>
+                <span class="category-label">人と活動</span>
+                <h2>この世界をひらく人たち。</h2>
+              </div>
+              <a href="artists.html">一覧へ ↗</a>
+            </div>
+            <div class="artist-pair">
+              <a href="higaki.html"
+                ><figure class="person-image" data-person-figure="higaki">
+                  <img
+                    data-person="higaki"
+                    src="assets/people/higaki-placeholder.svg"
+                    alt="音と空間をモチーフにした図版（本人の写真ではありません）"
+                    width="800"
+                    height="600"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                  <figcaption data-person-credit="higaki">
+                    画像未設定
+                  </figcaption>
+                </figure>
+                <div class="artist-info">
+                  <span>作曲・演奏・普及にも取り組む</span>
+                  <h3>檜垣 智也 <i>↗</i></h3>
+                  <p>音をつくり、空間で演奏し、その聴き方を次の人へ伝える。</p>
+                </div></a
+              ><a href="kanno.html"
+                ><figure class="person-image" data-person-figure="kanno">
+                  <img
+                    data-person="kanno"
+                    src="assets/people/kanno-placeholder.svg"
+                    alt="音と空間をモチーフにした図版（本人の写真ではありません）"
+                    width="800"
+                    height="600"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                  <figcaption data-person-credit="kanno">
+                    画像未設定
+                  </figcaption>
+                </figure>
+                <div class="artist-info">
+                  <span>小説も書く稀代の演奏家</span>
+                  <h3>菅野 伽琉 <i>↗</i></h3>
+                  <p>
+                    小説と音楽の融合を目指す、朗読やボイスドラマからの創作。
+                  </p>
+                </div></a
+              >
+            </div>
+          </section>
+          <a class="grow-banner" href="organize.html"
+            ><span>文化を育てる</span>
+            <h2>聴く人から、<br />この文化を育てる人へ。</h2>
+            <p>
+              体験会のつくり方、活動の記録、協力・助成への入口。<br />次の一回につながる、具体的な準備を。
+            </p>
+            <b>企画する・育てる ↗</b></a
+          >
+        </div>
+        <aside class="home-sidebar">
+          <div class="sidebar-guide">
+            <span class="side-eyebrow">目的別ガイド</span>
+            <h2>いま、どこから？</h2>
+            <div class="path-buttons" aria-label="関心に合わせた案内">
+              <button type="button" data-path="first" aria-pressed="true">
+                はじめて</button
+              ><button type="button" data-path="play" aria-pressed="false">
+                演奏したい</button
+              ><button type="button" data-path="host" aria-pressed="false">
+                企画したい
+              </button>
+            </div>
+            <div id="path-panel">
+              <p>
+                まず短い体験から。仕組みを読むと、聴こえ方の変化がもっと面白くなる。
+              </p>
+              <a href="lab.html">01 朗読ラボで体験 ↗</a
+              ><a href="about.html">02 仕組みを知る ↗</a
+              ><a href="visit.html">03 公演へ出かける ↗</a>
+            </div>
+          </div>
+          <a class="side-lab" href="lab.html"
+            ><span>朗読サウンドラボ</span
+            ><b>物語の声を、<br />あなたの手で。</b>
+            <div class="mini-wave" aria-hidden="true">
+              <i style="--h: 12px"></i><i style="--h: 30px"></i
+              ><i style="--h: 16px"></i><i style="--h: 42px"></i
+              ><i style="--h: 56px"></i><i style="--h: 31px"></i
+              ><i style="--h: 18px"></i><i style="--h: 44px"></i
+              ><i style="--h: 25px"></i><i style="--h: 53px"></i
+              ><i style="--h: 34px"></i><i style="--h: 15px"></i
+              ><i style="--h: 26px"></i><i style="--h: 47px"></i
+              ><i style="--h: 22px"></i><i style="--h: 10px"></i>
+            </div>
+            <small>朗読サウンドラボへ ↗</small></a
+          ><a class="dictionary-banner" href="glossary.html"
+            ><span>用語を調べる</span><b>音のことば。</b>
+            <p>定位、残響、フェーダー。<br />気になる言葉を、その場で。</p>
+            <i>12の用語をひらく ↗</i></a
+          >
+          <div class="editor-note">
+            <span>このサイトについて</span>
+            <h3>はじめての一人を、<br />増やすために。</h3>
+            <p>
+              詳しい人だけの音楽にしない。知る入口と、試す場所と、演奏を学ぶ道をつくる。このサイトは、そのための小さな拠点です。
+            </p>
+            <a href="sources.html">参考資料と編集方針 ↗</a>
+          </div>
+          <a
+            class="side-download"
+            href="assets/project-template.txt"
+            download=""
+            ><span>企画する方へ</span><b>体験会の企画メモ</b
+            ><small>空欄のテンプレートを保存 ↓</small></a
+          >
+        </aside>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <a class="brand" href="index.html"
+          ><span class="brand-mark" aria-hidden="true"
+            ><i></i><i></i><i></i><i></i><i></i></span
+          ><span>ACOUSMONIUM<small>音と、空間と、物語。</small></span></a
+        >
+        <p>
+          知ることから、体験することへ。<br />アクースモニウムの入口を、もっと身近に。
+        </p>
+        <small
+          ></small
+        >
+      </div>
+      <div>
+        <b>EXPLORE</b><a href="about.html">仕組みと歴史</a
+        ><a href="story.html">朗読と空間表現</a
+        ><a href="artists.html">アーティスト</a
+        ><a href="glossary.html">音のことば</a>
+      </div>
+      <div>
+        <b>TAKE PART</b><a href="lab.html">朗読サウンドラボ</a
+        ><a href="start.html">演奏を始める</a
+        ><a href="visit.html">公演へ出かける</a
+        ><a href="organize.html">企画する・育てる</a>
+      </div>
+      <div>
+        <b>INFORMATION</b><a href="sources.html">参考資料・編集方針</a
+        ><a href="source.zip" download="">編集用ファイル一式 ↓</a
+        ><a href="#top">ページの先頭へ ↑</a>
+      </div>
+    </footer>
+    <div class="footer-bottom">
+      <span>ACOUSMONIUM / LISTEN · DISCOVER · PLAY</span
+      ><span></span>
+    </div>
+    <dialog id="site-search" aria-labelledby="search-title">
+      <div class="search-heading">
+        <h2 id="search-title">気になることから、探す。</h2>
+        <button id="search-close" type="button" aria-label="検索を閉じる">
+          ×
+        </button>
+      </div>
+      <label for="search-query">キーワード</label
+      ><input
+        id="search-query"
+        type="search"
+        placeholder="例：朗読、檜垣、演奏、助成"
+        autocomplete="off"
+      />
+      <p id="search-count" role="status"></p>
+      <div id="search-results"></div>
+    </dialog>
+    <script src="search-index.js"></script>
+    <script src="editorial.js"></script>
+
+    <script src="image-settings.js"></script>
+    <script src="site-enhancements.js"></script>
+  </body>
+</html>
