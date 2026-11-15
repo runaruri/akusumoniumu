@@ -1,0 +1,11 @@
+{
+  "folders": [
+    {
+      "name": "ACOUSMONIUM 画像・モーション対応版",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "liveServer.settings.root": "/"
+  }
+}
